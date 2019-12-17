@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="307.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.controllers.AddProvidedServiceController">
+   <children>
+      <TextField fx:id="clientIdField" layoutX="40.0" layoutY="47.0" />
+      <TextField fx:id="serviceIdField" layoutX="40.0" layoutY="193.0" prefHeight="26.0" prefWidth="149.0" />
+      <TextField fx:id="hotelEmployeeIdField" layoutX="40.0" layoutY="120.0" />
+      <DatePicker fx:id="dateField" layoutX="40.0" layoutY="266.0" prefHeight="26.0" prefWidth="149.0" />
+      <Button fx:id="addButton" layoutX="203.0" layoutY="266.0" mnemonicParsing="false" text="Добавить" />
+      <Label layoutX="40.0" layoutY="29.0" text="client_id" />
+      <Label layoutX="40.0" layoutY="102.0" text="hotel_employee_id" />
+      <Label layoutX="40.0" layoutY="175.0" text="service_id" />
+      <Label layoutX="40.0" layoutY="248.0" text="date" />
+   </children>
+</AnchorPane>
